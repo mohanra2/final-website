@@ -1,1 +1,47 @@
 /* Add screen styles below */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5dc; /* Tan background color */
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #d2b48c; /* Tan header background color */
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #fff; /* White background color for sections */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #d2b48c; /* Tan footer background color */
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
