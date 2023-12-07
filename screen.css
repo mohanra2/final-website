@@ -26,7 +26,7 @@ section {
 }
 
 h2 {
-    color: #f5ecd0; /* Goldenrod text color for section headings */
+    color: goldenrod; /* Goldenrod text color for section headings */
 }
 
 p {
