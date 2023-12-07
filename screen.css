@@ -15,6 +15,7 @@ header {
 
 h1 {
     color: #fff; /* White text color for header */
+    font-family: cursive;
 }
 
 section {
