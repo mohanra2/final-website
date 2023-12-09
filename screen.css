@@ -1,5 +1,3 @@
-/* Add screen styles below */
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px;
@@ -15,10 +13,30 @@ header {
 
 h1 {
     color: #fff; /* White text color for header */
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #d4af37; /* Goldenrod tab background color */
+    color: #fff; /* White text color for tabs */
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: #c49730; /* Darker goldenrod on hover */
 }
 
 section {
+    display: none;
     margin-bottom: 30px;
     background-color: #fff; /* White background color for sections */
     padding: 20px;
@@ -27,7 +45,7 @@ section {
 }
 
 h2 {
-    color: goldenrod; /* Goldenrod text color for section headings */
+    color: #d4af37; /* Goldenrod text color for section headings */
 }
 
 p {
@@ -44,4 +62,9 @@ footer {
     bottom: 0;
     width: 100%;
     color: #fff; /* White text color for footer */
+}
+
+#aboutTab:checked ~ #aboutContent,
+#historyTab:checked ~ #historyContent {
+    display: block;
 }
