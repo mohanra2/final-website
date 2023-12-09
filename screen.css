@@ -8,7 +8,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #d4af37; /* Goldenrod header background color */
+    background-color: #d49037; /* header background color */
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #333; /* Dark background color for the navigation bar */
+    background-color: burlywood; /* Dark background color for the navigation bar */
     padding: 15px 0;
 }
 
@@ -33,11 +33,12 @@ nav a {
 
 nav a:hover {
     background-color: #555; /* Darker background color on hover */
-    color: #d4af37; /* Goldenrod text color on hover */
+    color: #d49037; /* Goldenrod text color on hover */
 }
 
+
 section {
-    display: none;
+    margin-top: 30px;
     margin-bottom: 30px;
     background-color: #fff; /* White background color for sections */
     padding: 20px;
@@ -46,7 +47,8 @@ section {
 }
 
 h2 {
-    color: #d4af37; /* Goldenrod text color for section headings */
+    color: #d49037; /* Goldenrod text color for section headings */
+    text-align: center;
 }
 
 p {
@@ -54,13 +56,22 @@ p {
     color: #555;
 }
 
+img {
+    border-radius: 10px;
+    max-width: auto;
+    height: auto;
+    float: none;
+    
+}
+
 footer {
     margin-top: 30px;
+    /*margin-right: 15px;*/
     text-align: center;
-    background-color: #d4af37; /* Goldenrod footer background color */
+    background-color: #d49037; /* Goldenrod footer background color */
     padding: 15px;
-    position: fixed;
+    /*position: fixed;*/
     bottom: 0;
-    width: 100%;
+    width: 98%;
     color: #fff; /* White text color for footer */
 }
