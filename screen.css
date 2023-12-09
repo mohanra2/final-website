@@ -15,24 +15,25 @@ h1 {
     color: #fff; /* White text color for header */
 }
 
-.tabs {
+nav {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    background-color: #333; /* Dark background color for the navigation bar */
+    padding: 15px 0;
 }
 
-.tab {
+nav a {
     text-decoration: none;
-    padding: 10px 20px;
-    background-color: #d4af37; /* Goldenrod tab background color */
-    color: #fff; /* White text color for tabs */
+    color: #fff; /* White text color for navigation links */
+    margin: 0 15px;
+    padding: 10px 15px;
     border-radius: 5px;
-    margin-right: 10px;
-    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.tab:hover {
-    background-color: #c49730; /* Darker goldenrod on hover */
+nav a:hover {
+    background-color: #555; /* Darker background color on hover */
+    color: #d4af37; /* Goldenrod text color on hover */
 }
 
 section {
@@ -62,9 +63,4 @@ footer {
     bottom: 0;
     width: 100%;
     color: #fff; /* White text color for footer */
-}
-
-#aboutTab:checked ~ #aboutContent,
-#historyTab:checked ~ #historyContent {
-    display: block;
 }
