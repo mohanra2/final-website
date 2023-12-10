@@ -12,7 +12,8 @@ header {
 }
 
 h1 {
-    color: #fff; /* White text color for header */
+    color: rgb(131, 87, 30); /* text color for header */
+    text-align: center;
 }
 
 nav {
@@ -53,7 +54,7 @@ section details {
 }
 
 section details summary {
-    color: #d49037; /* Goldenrod text color for the toggle trigger */
+    color: #8b735b; /* text color for the toggle trigger */
     cursor: pointer;
     margin-bottom: 10px;
 }
@@ -84,6 +85,9 @@ img {
     margin: 0 auto; /* Center the image */
 }
 
+iframe {
+    margin: 0 auto;
+}
 footer {
     margin-top: 30px;
     text-align: center;
